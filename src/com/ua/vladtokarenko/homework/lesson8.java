@@ -4,13 +4,13 @@ import java.util.Random;
 
 public class lesson8 {
     public static void main(String[] args) {
-        int length = 2;
+        int length = 3;
         int[] arr = new int[length];
         Random random = new Random();
         for (int i = 1; i < length; i++) {
-            arr[i] = random.nextInt(10);
+            arr[i] = random.nextInt(12);
             {
-                System.out.println(arr[i] + " RandomNumbrs ");
+                System.out.println(arr[i] + " RandomNumber ");
 
             }
             System.out.print(getMinValue(arr) + " MinValue ");
@@ -21,6 +21,7 @@ public class lesson8 {
         }
 
     }
+
     static int getMinValue(int[] arr) {
         int min = arr[0];
         for (int i = 1; i < arr.length; i++) {
@@ -31,6 +32,7 @@ public class lesson8 {
         return min;
 
     }
+
     static int getMaxValue(int[] arr) {
         int max = arr[0];
         for (int i = 1; i < arr.length; i++) {
@@ -40,6 +42,7 @@ public class lesson8 {
         }
         return max;
     }
+
     static int getSumValue(int[] arr) {
         int sum = 0;
         for (int i = 1; i < arr.length; i++) {
@@ -47,8 +50,9 @@ public class lesson8 {
         }
         return sum;
     }
-    static int getAverageValue(int[] arr) {
-        int sum = 0;
+
+    static double getAverageValue(int[] arr) {
+        double sum = 0;
         for (int i = 1; i < arr.length; i++) {
             sum += arr[i];
         }
