@@ -23,7 +23,7 @@ public class lesson8 {
     }
     static int getMinValue(int[] arr) {
         int min = arr[0];
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             if (arr[i] < min) {
                 min = arr[i];
             }
@@ -33,7 +33,7 @@ public class lesson8 {
     }
     static int getMaxValue(int[] arr) {
         int max = arr[0];
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             if (arr[i] > max) {
                 max = arr[i];
             }
@@ -42,14 +42,14 @@ public class lesson8 {
     }
     static int getSumValue(int[] arr) {
         int sum = 0;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             sum += arr[i];
         }
         return sum;
     }
     static int getAverageValue(int[] arr) {
         int sum = 0;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             sum += arr[i];
         }
         return sum / arr.length;
