@@ -3,6 +3,7 @@ package com.ua.vladtokarenko.lesson9.arrey;
 import java.util.Arrays;
 import java.util.Random;
 
+
 public class Arreys {
     public int length;
     public int[] arr;
@@ -13,7 +14,7 @@ public class Arreys {
         this.length = length;
         arr = new int[length];
         Random random = new Random();
-        for (i = 1; i < length; i++) {
+        for (i = 0; i < length; i++) {
             arr[i] = random.nextInt(10);
             System.out.print(arr[i] + " ");
         }
