@@ -8,7 +8,7 @@ public class lesson8 {
         int[] arr = new int[length];
         Random random = new Random();
         for (int i = 1; i < length; i++) {
-            arr[i] = random.nextInt(12);
+            arr[i] = random.nextInt(10);
             {
                 System.out.println(arr[i] + " RandomNumber ");
 
