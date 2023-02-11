@@ -8,6 +8,5 @@ public class Student {
 
     public String student() {
         return name + " " + surname + " " + age + " " + room;
-
     }
 }
