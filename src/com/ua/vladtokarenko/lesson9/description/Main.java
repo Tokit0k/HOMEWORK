@@ -1,4 +1,4 @@
-package com.ua.vladtokarenko.lesson9;
+package com.ua.vladtokarenko.lesson9.description;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,12 +16,6 @@ public class Main {
         teacher1.room = "Robot_Dreams";
         System.out.println(teacher1.teacher());
         System.out.println(" ");
-
-        Arrey arrey1 = new Arrey();
-
-        arrey1.lenght = 3;
-
-        System.out.println(arrey1);
     }
 
 }

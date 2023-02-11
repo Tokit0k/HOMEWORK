@@ -1,13 +1,12 @@
-package com.ua.vladtokarenko.lesson9;
+package com.ua.vladtokarenko.lesson9.description;
 
-public class Student {
+public class Teacher {
     public String name;
     public String surname;
     public int age;
     public String room;
 
-    public String student() {
+    public String teacher() {
         return name + " " + surname + " " + age + " " + room;
-
     }
 }
