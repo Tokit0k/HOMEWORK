@@ -1,10 +1,12 @@
 package com.ua.vladtokarenko;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Arrey {
     private int length;
-    private int[] array;
+    private int[] arr;
+    private int i;
 
     public int getLength() {
         return length;
@@ -14,23 +16,35 @@ public class Arrey {
         this.length = length;
     }
 
-    public int[] getArray() {
-        return array;
+    public int[] getArr() {
+        return arr;
     }
 
-    public void setArray(int[] array) {
-        this.array = array;
+    public void setArr(int[] arr) {
+        this.arr = arr;
     }
 
-    public void ArreyRandom(int length) {
+    public int getI() {
+        return i;
+    }
+
+    public void setI(int i) {
+        this.i = i;
+    }
+
+    public Arrey(int length) {
         this.length = length;
-        array = new int[length];
+        arr = new int[length];
         Random random = new Random();
-        for (int i = 0; i < length; i++) {
-            array[i] = random.nextInt(10);
+        for (i = 0; i < length; i++) {
+            arr[i] = random.nextInt(10);
+            System.out.print(arr[i] + " ");
         }
-
     }
-
 
 }
+
+
+
+
+

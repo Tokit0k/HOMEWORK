@@ -12,8 +12,10 @@ public class Main {
         teacher.setSurname("Kapustnyk");
         teacher.setAge(28);
         System.out.println(teacher);
-        Arrey arrey = new Arrey();
-        arrey.setLength(10);
+        System.out.println(" ");
+        Description student2 = new Description();
+
+        Arrey arr = new Arrey(4);
     }
 
 }
