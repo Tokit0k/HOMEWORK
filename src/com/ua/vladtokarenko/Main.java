@@ -15,7 +15,7 @@ public class Main {
         System.out.println(" ");
         Description student2 = new Description();
 
-        Arrey arr = new Arrey(7);
+        Arrey arr = new Arrey(4);
 
     }
 
