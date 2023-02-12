@@ -5,7 +5,7 @@ public class Main {
         Student student1 = new Student();
         student1.name = "Vladislav";
         student1.surname = "Tokarenko";
-        student1.age = 20;
+        student1.age = 26;
         student1.room = "Robot_Dreams";
         System.out.println(student1.student());
 
