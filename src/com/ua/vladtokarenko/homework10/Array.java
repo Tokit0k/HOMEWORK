@@ -1,4 +1,4 @@
-package com.ua.vladtokarenko.homework;
+package com.ua.vladtokarenko.homework10;
 
 import java.util.Random;
 
