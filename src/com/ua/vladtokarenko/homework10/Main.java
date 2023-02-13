@@ -5,7 +5,7 @@ public class Main {
         Description student = new Description();
         student.setName("Vlad");
         student.setSurname("Tokarenko");
-        student.setAge(26);
+        student.setAge(27);
         System.out.println(student);
         Description teacher = new Description();
         teacher.setName("Oleksii");
@@ -13,9 +13,9 @@ public class Main {
         teacher.setAge(28);
         System.out.println(teacher);
         System.out.println(" ");
-        Array arr = new Array();
-        arr.arrRandom(5);
-        Array arr2 = new Array();
-        arr.arrSortMin(3);
+        Description student2 = new Description();
+        Array arr1 = new Array(6);
+
     }
+
 }
