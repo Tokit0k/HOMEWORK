@@ -4,7 +4,6 @@ import java.util.Random;
 
 public class Array {
     int i;
-
     public Array(int length) {
         int[] arr = new int[length];
         Random random = new Random();
