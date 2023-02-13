@@ -3,35 +3,39 @@ package com.ua.vladtokarenko.homework;
 import java.util.Random;
 
 public class Array {
-    int i;
-    public Array(int length) {
-        int[] arr = new int[length];
+    int[] generateArray(int size) {
+        int[] array = new int[size];
         Random random = new Random();
-        for (i = 0; i < length; i++) {
-            arr[i] = random.nextInt(10) + 1;
-            System.out.print(arr[i] + " ");
+        for (int i = 0; i < size; i++) {
+            array[i] = random.nextInt(10) + 1;
         }
-        System.out.println(" ");
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = arr.length - 1; j > i; j--) {
-                if (arr[j - 1] < arr[j]) {
-                    int tmp = arr[j - 1];
-                    arr[j - 1] = arr[j];
-                    arr[j] = tmp;
-                }
-            }
-            System.out.print(arr[i] + " ");
-        }
-        System.out.println(" ");
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = arr.length - 1; j > i; j--) {
-                if (arr[j - 1] > arr[j]) {
-                    int tmp = arr[j - 1];
-                    arr[j - 1] = arr[j];
-                    arr[j] = tmp;
-                }
-            }
-            System.out.print(arr[i] + " ");
-        }
+        return array;
     }
+
+    int[] sortArrayLeft(int[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+            for (int j = 0; j < array.length - 1; j++) {
+                if (array[j] > array[j + 1]) {
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
+            }
+        }
+        return array;
+    }
+    int[] sortArrayRight(int[] array) {
+        for (int i = 0; i < array.length - 1; i++) {
+            for (int j = 0; j < array.length - 1; j++) {
+                if (array[j] < array[j + 1]) {
+                    int temp = array[j];
+                    array[j] = array[j + 1];
+                    array[j + 1] = temp;
+                }
+            }
+        }
+        return array;
+    }
+
 }
+

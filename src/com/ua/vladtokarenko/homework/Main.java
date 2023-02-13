@@ -1,5 +1,7 @@
 package com.ua.vladtokarenko.homework;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         Description student = new Description();
@@ -14,8 +16,10 @@ public class Main {
         System.out.println(teacher);
         System.out.println(" ");
         Description student2 = new Description();
-        Array arr1 = new Array(6);
-
+        Array arr1 = new Array();
+        System.out.println(Arrays.toString(arr1.generateArray(6)));
+        System.out.println(Arrays.toString(arr1.sortArrayRight(arr1.generateArray(6))));
+        System.out.println(Arrays.toString(arr1.sortArrayLeft(arr1.generateArray(6))));
     }
 
 }
