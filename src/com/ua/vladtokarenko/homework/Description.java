@@ -1,4 +1,4 @@
-package com.ua.vladtokarenko;
+package com.ua.vladtokarenko.homework;
 
 public class Description {
     private String name;
