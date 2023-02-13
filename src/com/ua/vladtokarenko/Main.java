@@ -14,7 +14,7 @@ public class Main {
         System.out.println(teacher);
         System.out.println(" ");
         Description student2 = new Description();
-        Array arr1 = new Array(3);
+        Array arr1 = new Array(6);
 
     }
 
