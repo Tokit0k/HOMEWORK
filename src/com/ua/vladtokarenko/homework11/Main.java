@@ -2,19 +2,19 @@ package com.ua.vladtokarenko.homework11;
 
 public class Main {
     public static void main(String[] args) {
-        Lightweight car = new Lightweight();
-        car.setModel("Toyota");
-        car.setColor("Red");
-        car.setYear(1984);
-        car.setLoadcapacity(100);
-        car.setWeight(1500);
-        System.out.println(car);
-        Cargo car1 = new Cargo();
-        car1.setModel("Audi");
-        car1.setColor("Green");
-        car1.setYear(2004);
-        car1.setHorsepower(20000);
-        System.out.println(car1);
+        Cargo car = new Cargo();
+        car.setModel("BMW");
+        car.setColor("red");
+        car.setYear(2020);
+        car.setLifting(10);
+        car.carReturn();
+        Lightweight car2 = new Lightweight();
+        car2.setModel("Audi");
+        car2.setColor("black");
+        car2.setYear(2020);
+        car2.setLimitSpeed(250);
+        car2.carReturn();
+
 
     }
 }

@@ -1,21 +1,14 @@
 package com.ua.vladtokarenko.homework11;
 
-public class Cargo extends Car{
-    protected int horsepower;
+public class Cargo extends Car {
+    protected int lifting;
 
-    public int getHorsepower() {
-        return horsepower;
+    public int getLifting() {
+        return lifting;
     }
 
-    public void setHorsepower(int horsepower) {
-        this.horsepower = horsepower;
+    public void setLifting(int lifting) {
+        this.lifting = lifting;
     }
 
-    @Override
-    public String toString() {
-        return "model= " + model +
-                " color= " + color +
-                " year= " + year +
-                " horsepower=" + horsepower;
-    }
 }

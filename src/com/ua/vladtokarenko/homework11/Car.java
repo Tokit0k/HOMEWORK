@@ -1,6 +1,6 @@
 package com.ua.vladtokarenko.homework11;
 
-public class Car {
+public class Car  {
     protected String model;
     protected String color;
     protected int year;
@@ -28,4 +28,10 @@ public class Car {
     public void setYear(int year) {
         this.year = year;
     }
+
+    public void carReturn() {
+        System.out.println("Модель автомобиля: " + model + " год выпуска: " + this.year + " Цвет: " + this.color);
+    }
+
+
 }
