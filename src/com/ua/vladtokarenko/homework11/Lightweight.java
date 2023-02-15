@@ -11,4 +11,8 @@ public class Lightweight extends Car{
         this.limitSpeed = limitSpeed;
     }
 
+    @Override
+    public void carReturn() {
+        System.out.println(model + " " + color + " " + year + " " + limitSpeed + " Перевизначиний метод");
+    }
 }

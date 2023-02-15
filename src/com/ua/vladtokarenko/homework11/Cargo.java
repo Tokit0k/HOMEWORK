@@ -11,4 +11,8 @@ public class Cargo extends Car {
         this.lifting = lifting;
     }
 
+    @Override
+    public void carReturn() {
+        System.out.println(model + " " + color + " " + year + " " + lifting + " Перевизначиний метод");
+    }
 }
