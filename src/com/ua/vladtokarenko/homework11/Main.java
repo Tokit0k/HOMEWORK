@@ -6,12 +6,12 @@ public class Main {
         car.setModel("BMW");
         car.setColor("red");
         car.setYear(2020);
-        car.setLifting(10);
+        car.setLifting(1000);
         car.carReturn();
         Lightweight car2 = new Lightweight();
         car2.setModel("Audi");
         car2.setColor("black");
-        car2.setYear(2020);
+        car2.setYear(2017);
         car2.setLimitSpeed(250);
         car2.carReturn();
 

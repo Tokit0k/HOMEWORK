@@ -17,9 +17,9 @@ public class Main {
         System.out.println(" ");
         Description student2 = new Description();
         Array arr1 = new Array();
-        System.out.println(Arrays.toString(arr1.generateArray(2)));
-        System.out.println(Arrays.toString(arr1.sortArrayRight(arr1.generateArray(3))));
+        System.out.println(Arrays.toString(arr1.generateArray(4)));
         System.out.println(Arrays.toString(arr1.sortArrayLeft(arr1.generateArray(3))));
+        System.out.println(Arrays.toString(arr1.sortArrayRight(arr1.generateArray(6))));
     }
 
 }
