@@ -18,8 +18,21 @@ public class Teacher extends Person {
         return speciality;
     }
 
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public void setSpeciality(String speciality) {
+        this.speciality = speciality;
+    }
+
     @Override
-    public  String getRole() {
-        return department+ " " + speciality  + " is a teacher";
+    public String ToString() {
+        return getFirstName() + " "
+                + getLastName() + " "
+                + getAge() + " "
+                + getGender() + " "
+                + getDepartment() + " "
+                + getSpeciality() + " Учитель";
     }
 }

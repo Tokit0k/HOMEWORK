@@ -18,9 +18,24 @@ public class Student extends Person {
         return yearOfStudy;
     }
 
-    @Override
-    public String getRole() {
-        return group + " is a student";
+    public void setGroup(String group) {
+        this.group = group;
     }
 
+    public void setYearOfStudy(int yearOfStudy) {
+        this.yearOfStudy = yearOfStudy;
+    }
+
+    @Override
+    public String ToString() {
+        return getFirstName()
+                + " "
+                + getLastName()
+                + " "
+                + getAge() + " "
+                + getGender() + " "
+                + getGroup() + " "
+                + getYearOfStudy()
+                + " Студент";
+    }
 }

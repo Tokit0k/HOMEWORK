@@ -29,7 +29,23 @@ public abstract class Person {
         return gender;
     }
 
-    public abstract String getRole();
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public abstract String ToString();
 
 }
 
