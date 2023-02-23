@@ -5,6 +5,4 @@ public class Main {
 
         Child child = new Child();
     }
-
-
 }

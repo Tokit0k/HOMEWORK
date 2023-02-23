@@ -5,6 +5,8 @@ public class Car  {
     protected String color;
     protected int year;
 
+
+
     public String getModel() {
         return model;
     }
