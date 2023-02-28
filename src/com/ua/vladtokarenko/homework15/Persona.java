@@ -25,8 +25,5 @@ public class Persona {
         this.lastName = lastName;
     }
 
-    void printName() {
-        System.out.println(firstName + " " + lastName);
-    }
 }
 
