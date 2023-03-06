@@ -8,23 +8,22 @@ public enum DayOfWeekday {
     FRIDAY,
     SATURDAY,
     SUNDAY;
-    public static String numberDays(int number) {
-
+     static DayOfWeekday numberDays(int number) {
         switch (number) {
             case 1:
-                return MONDAY.name();
+                return MONDAY;
             case 2:
-                return TUESDAY.name();
+                return TUESDAY;
             case 3:
-                return WEDNESDAY.name();
+                return WEDNESDAY;
             case 4:
-                return THURSDAY.name();
+                return THURSDAY;
             case 5:
-                return FRIDAY.name();
+                return FRIDAY;
             case 6:
-                return SATURDAY.name();
+                return SATURDAY;
             default:
-                return "Більше намає днів";
+                return null;
         }
     }
 }
