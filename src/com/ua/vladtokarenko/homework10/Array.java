@@ -3,6 +3,7 @@ package com.ua.vladtokarenko.homework10;
 import java.util.Random;
 
 public class Array {
+
     int[] generateArray(int size) {
         int[] array = new int[size];
         Random random = new Random();
@@ -38,6 +39,11 @@ public class Array {
         return array;
 
 
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
     }
 }
 
