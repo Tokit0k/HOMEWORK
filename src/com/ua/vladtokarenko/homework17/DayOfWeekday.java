@@ -8,16 +8,8 @@ public enum DayOfWeekday {
     FRIDAY,
     SATURDAY,
     SUNDAY;
-    int numbersDays;
-    public int getNumbersDays() {
-        return numbersDays;
-    }
-    public void setNumbersDays(int numbersDays) {
-        this.numbersDays = numbersDays;
-    }
-
-    public static String getDayOfWeek(int i) {
-        switch (i) {
+    public static String numberDays(int numberDays) {
+        switch (numberDays) {
             case 1:
                 return "Monday";
             case 2:
