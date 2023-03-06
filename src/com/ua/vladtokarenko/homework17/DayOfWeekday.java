@@ -8,26 +8,30 @@ public enum DayOfWeekday {
     FRIDAY,
     SATURDAY,
     SUNDAY;
-    int dayNumber;
+    int numbersDays;
+    public int getNumbersDays() {
+        return numbersDays;
+    }
+    public void setNumbersDays(int numbersDays) {
+        this.numbersDays = numbersDays;
+    }
 
-   public static DayOfWeekday getWeekday(int dayNumber) {
-        switch (dayNumber) {
+    public static String getDayOfWeek(int i) {
+        switch (i) {
             case 1:
-                return DayOfWeekday.MONDAY;
+                return "Monday";
             case 2:
-                return DayOfWeekday.TUESDAY;
+                return "Tuesday";
             case 3:
-                return DayOfWeekday.WEDNESDAY;
+                return "Wednesday";
             case 4:
-                return DayOfWeekday.THURSDAY;
+                return "Thursday";
             case 5:
-                return DayOfWeekday.FRIDAY;
+                return "Friday";
             case 6:
-                return DayOfWeekday.SATURDAY;
-            case 7:
-                return DayOfWeekday.SUNDAY;
-            default: return null;
+                return "Saturday";
+            default:
+                return "Більше намає днів";
         }
     }
 }
-
