@@ -8,18 +8,13 @@ public enum DayOfWeekday {
     FRIDAY(5),
     SATURDAY(6),
     SUNDAY(7);
-    int numberDays;
-
+   final int  numberDays;
     DayOfWeekday(int numberDays) {
         this.numberDays = numberDays;
     }
 
     public int getNumberDays() {
         return numberDays;
-    }
-
-    public void setNumberDays(int numberDays) {
-        this.numberDays = numberDays;
     }
     static DayOfWeekday getWeekday(int dayNumber) {
         for (DayOfWeekday weekday : DayOfWeekday.values()) {
