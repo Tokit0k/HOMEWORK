@@ -6,5 +6,4 @@ public class Main {
         System.out.println(DayOfWeekday.numberDays(2));
         System.out.println(DayOfWeekday.numberDays(9));
     }
-
 }
