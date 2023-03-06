@@ -15,7 +15,6 @@ public class Main {
         teacher.setAge(28);
         System.out.println(teacher);
         System.out.println(" ");
-        Description student2 = new Description();
         Array arr1 = new Array();
         System.out.println(Arrays.toString(arr1.generateArray(4)));
         System.out.println(Arrays.toString(arr1.sortArrayLeft(arr1.generateArray(3))));
