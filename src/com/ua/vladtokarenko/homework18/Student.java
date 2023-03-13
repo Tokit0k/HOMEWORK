@@ -11,6 +11,7 @@ public class Student {
         this.age = age;
         this.group = group;
     }
+
     public String getName() {
         return name;
     }

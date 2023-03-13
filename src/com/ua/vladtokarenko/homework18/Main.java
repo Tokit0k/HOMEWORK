@@ -17,6 +17,7 @@ public class Main {
         for (int i = 0; i < 2000000; i++) {
             list2.add(i);
         }
+
         List<Student> students = new ArrayList<>();
         students.add(new Student("Ivan", "Ivanov", 20, "A"));
         students.add(new Student("Petr", "Petrov", 21, "B"));
