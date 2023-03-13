@@ -1,8 +1,8 @@
 package com.ua.vladtokarenko.homework14;
 
 public class Teacher extends Person {
-    final private String department;
-    final private String speciality;
+    private String department;
+    private String speciality;
 
     public Teacher(String firstName, String lastName, int age, String gender, String department, String speciality) {
         super(firstName, lastName, age, gender);
@@ -16,6 +16,14 @@ public class Teacher extends Person {
 
     public String getSpeciality() {
         return speciality;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public void setSpeciality(String speciality) {
+        this.speciality = speciality;
     }
 
     @Override

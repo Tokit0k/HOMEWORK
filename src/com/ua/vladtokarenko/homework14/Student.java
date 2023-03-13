@@ -1,8 +1,8 @@
 package com.ua.vladtokarenko.homework14;
 
 public class Student extends Person {
-    final private String group;
-    final private int yearOfStudy;
+    private String group;
+    private int yearOfStudy;
 
     public Student(String firstName, String lastName, int age, String gender, String group, int yearOfStudy) {
         super(firstName, lastName, age, gender);
@@ -16,6 +16,14 @@ public class Student extends Person {
 
     public int getYearOfStudy() {
         return yearOfStudy;
+    }
+
+    public void setGroup(String group) {
+        this.group = group;
+    }
+
+    public void setYearOfStudy(int yearOfStudy) {
+        this.yearOfStudy = yearOfStudy;
     }
 
     @Override

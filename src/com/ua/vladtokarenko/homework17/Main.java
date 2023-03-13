@@ -6,4 +6,5 @@ public class Main {
         System.out.println(DayOfWeekday.getWeekday(1));
         System.out.println(DayOfWeekday.getWeekday(2));
     }
+
 }
