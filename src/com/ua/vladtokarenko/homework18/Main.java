@@ -10,9 +10,10 @@ public class Main {
         for (int i = 1; i < 11; i++) {
         list.add(i);
         }
+        System.out.println(list);
+        System.out.println(" ");
         System.out.println(list.get(4));
         System.out.println(list.size());
-        System.out.println(list);
         System.out.println(" ");
         List<Integer> list2 = new LinkedList<>();
         for (int i = 0; i < 2000000; i++) {
@@ -22,7 +23,7 @@ public class Main {
         list2.add(1,122);
         System.out.println(list2.get(1));
         System.out.println(list2.size());
-
+        System.out.println("");
         List<Student> students = new ArrayList<>();
         students.add(new Student("Ivan", "Ivanov", 20, "A"));
         students.add(new Student("Petr", "Petrov", 21, "B"));
