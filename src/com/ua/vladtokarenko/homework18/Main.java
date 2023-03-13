@@ -6,16 +6,17 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<Integer> list = new LinkedList<>();
+        List<Integer> list = new ArrayList<>();
         for (int i = 1; i < 11; i++) {
         list.add(i);
         }
         list.add(3, 11);
         System.out.println(list);
         System.out.println(" ");
-        List<Integer> list2 = new ArrayList<>();
+        List<Integer> list2 = new LinkedList<>();
         for (int i = 0; i < 2000000; i++) {
             list2.add(i);
+            System.out.println(list2);
         }
 
         List<Student> students = new ArrayList<>();
