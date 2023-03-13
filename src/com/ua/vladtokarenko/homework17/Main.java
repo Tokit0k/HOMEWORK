@@ -5,6 +5,8 @@ public class Main {
         DayOfWeekday dayOfWeekday = DayOfWeekday.WEDNESDAY;
         System.out.println(dayOfWeekday.numberDays(1));
         System.out.println(dayOfWeekday.numberDays(2));
+        System.out.println(dayOfWeekday.numberDays(3));
+        System.out.println(dayOfWeekday.numberDays(44));
 
     }
 

@@ -23,7 +23,7 @@ public enum DayOfWeekday {
             case 6:
                 return "Saturday";
             default:
-                return "Більше намає днів";
+                return " Більше намає днів ";
         }
     }
 }
