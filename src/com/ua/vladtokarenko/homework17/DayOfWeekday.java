@@ -1,27 +1,29 @@
 package com.ua.vladtokarenko.homework17;
 
 public enum DayOfWeekday {
-    MONDAY(1),
-    TUESDAY(2),
-    WEDNESDAY(3),
-    THURSDAY(4),
-    FRIDAY(5),
-    SATURDAY(6),
-    SUNDAY(7);
-   final int  numberDays;
-    DayOfWeekday(int numberDays) {
-        this.numberDays = numberDays;
-    }
-
-    public int getNumberDays() {
-        return numberDays;
-    }
-    static DayOfWeekday getWeekday(int dayNumber) {
-        for (DayOfWeekday weekday : DayOfWeekday.values()) {
-            if (weekday.getNumberDays() == dayNumber) {
-                return weekday;
-            }
+    MONDAY,
+    TUESDAY,
+    WEDNESDAY,
+    THURSDAY,
+    FRIDAY,
+    SATURDAY,
+    SUNDAY;
+    public static String numberDays(int numberDays) {
+        switch (numberDays) {
+            case 1:
+                return "Monday";
+            case 2:
+                return "Tuesday";
+            case 3:
+                return "Wednesday";
+            case 4:
+                return "Thursday";
+            case 5:
+                return "Friday";
+            case 6:
+                return "Saturday";
+            default:
+                return "Більше намає днів";
         }
-        return null;
     }
 }
