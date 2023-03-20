@@ -18,16 +18,22 @@ public class Main {
         map.put("Малий", new String[]{"Small", "小", "Klein"});
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введіть слово: ");
-        String word = scanner.nextLine();
+        while (true) {
+            System.out.print("Введіть слово: ");
+            String word = scanner.nextLine();
+            if (word.equals("exit")) {
+                break;
+            }
 
-        String[] translations = map.get(word);
-        if (translations != null) {
-            System.out.println("Англійська: " + translations[0]);
-            System.out.println("Японська: " + translations[1]);
-            System.out.println("Німецька: " + translations[2]);
-        } else {
-            System.out.println("Переклад для цього слова не знайдено");
+            String[] translations = map.get(word);
+            if (translations != null) {
+                System.out.println("Англійська: " + translations[0]);
+                System.out.println("Японська: " + translations[1]);
+                System.out.println("Німецька: " + translations[2]);
+            }
+            if (translations == null) {
+                System.out.println("Переклад для цього слова не знайдено");
+            }
         }
     }
 }
