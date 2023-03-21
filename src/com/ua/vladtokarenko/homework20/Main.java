@@ -21,7 +21,7 @@ public class Main {
         while (true) {
             System.out.print("Введіть слово: ");
             String word = scanner.nextLine();
-            if (word.equals("exit")) {
+            if (word.equals("Кінець")) {
                 break;
             }
 
@@ -31,7 +31,7 @@ public class Main {
                 System.out.println("Японська: " + translations[1]);
                 System.out.println("Німецька: " + translations[2]);
             }
-            if (translations == null) {
+            else  {
                 System.out.println("Переклад для цього слова не знайдено");
             }
         }
