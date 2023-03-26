@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>();
         students.add(new Student("Tokarenko", 5.0));
-        students.add(new Student("Vlasov", 3.5));
+        students.add(new Student("Vlasov", 4.5));
         students.add(new Student("Ankura", 2.5));
         students.add(new Student("Ivanov", 4.5));
         students.add(new Student("Petrov", 1.0));
