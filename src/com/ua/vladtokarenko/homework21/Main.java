@@ -33,8 +33,8 @@ public class Main {
         for (Student student : students) {
             System.out.println(student.getSurname() + " " + student.getAverageGrade() + " " + student.getAge());
         }
-        Comparator<Student> sortName = Comparator.comparing(Student::getAge);
-        students.sort(sortName);
+        Comparator<Student> sortAge = Comparator.comparing(Student::getAge).reversed();
+        students.sort(sortAge);
         System.out.println(" ");
         System.out.println("sort age: ");
         for (Student student : students) {
