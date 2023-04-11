@@ -18,9 +18,6 @@ public class Main {
         try {
             int result = square();
             System.out.println("Результат: " + result);
-
-            int negativeResult = square();
-            System.out.println("Результат: " + negativeResult);
         } catch (NumberException e) {
             System.out.println("Error: " + e.getMessage());
         }
