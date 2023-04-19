@@ -1,9 +1,9 @@
-package com.ua.vladtokarenko.homework27;
+package com.ua.vladtokarenko.homework28;
 
+import java.io.File;
 import java.util.Scanner;
-
-import static com.ua.vladtokarenko.homework27.FileService.readFromFile;
-import static com.ua.vladtokarenko.homework27.FileService.saveToFile;
+import static com.ua.vladtokarenko.homework28.FileService.readFromFileNIO;
+import static com.ua.vladtokarenko.homework28.FileService.saveToFileNIO;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,12 +14,13 @@ public class Main {
             if (input.equals("Вийти")) {
                 break;
             }
-            saveToFile(input);
-            String allData = readFromFile();
+            saveToFileNIO(input);
+            String allData = readFromFileNIO();
             System.out.println("Строка в файлі ");
             System.out.println(allData);
         }
         scanner.close();
-    }
 
+
+    }
 }
