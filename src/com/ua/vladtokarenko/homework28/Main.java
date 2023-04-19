@@ -6,10 +6,10 @@ import static com.ua.vladtokarenko.homework28.FileService.readFromFileNIO;
 import static com.ua.vladtokarenko.homework28.FileService.saveToFileNIO;
 
 public class Main {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.println("Напиши текст (або 'Вийти' щоб вийти ): ");
+            System.out.println("Напиши текст (або 'Вийти' щоб вийти): ");
             String input = scanner.nextLine();
             if (input.equals("Вийти")) {
                 break;
