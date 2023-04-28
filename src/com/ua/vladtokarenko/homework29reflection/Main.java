@@ -1,4 +1,4 @@
-package com.ua.vladtokarenko.homework29;
+package com.ua.vladtokarenko.homework29reflection;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

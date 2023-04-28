@@ -1,8 +1,4 @@
-package com.ua.vladtokarenko.homework29;
-
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.List;
+package com.ua.vladtokarenko.homework29reflection;
 
 public class Reflection {
     public int publicField1;
